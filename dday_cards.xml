@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=====================================================================
+ dday_cards.xml 사용 방법  (커뮤니티 탭 맨 위 D-day 카드)
+=====================================================================
+ - <dday> 하나 = 카드 한 장. 많으면 좌우로 스크롤됩니다.
+ - 앱이 켜져 있는 동안 5분마다, 그리고 앱으로 돌아올 때 자동으로 다시 읽습니다.
+ - <id>      카드끼리만 다르면 됨 (화면엔 안 보임)
+ - <name>    카드에 보일 이름
+ - <date>    목표 날짜. 2026-12-25 형식 (2026.12.25 / 2026/12/25 도 인식)
+             앱이 오늘부터 남은 일수를 계산해 "D-12" 로 표시, 당일은 "D-Day"
+ - 날짜가 지난 카드는 자동으로 숨겨지고, 가까운 날짜 순으로 자동 정렬됩니다.
+   (파일 안의 순서는 상관없음)
+ - <colorLight> / <colorDark>  라이트/다크 모드 배경색 #RRGGBB (선택).
+   안 쓰면 앱 기본 카드색. 글자색은 앱이 자동으로 정합니다.
+ - 이름 안의 & 는 그냥 써도 자동 변환됩니다. 날짜 형식이 틀린 카드는 그 카드만 건너뜁니다.
+ 
+ [예시]
+ <dday>
+   <id>season_end</id>
+   <name>시즌 종료</name>
+   <date>2026-11-30</date>
+   <colorLight>#DCE8FF</colorLight>
+   <colorDark>#26406E</colorDark>
+ </dday>
+=====================================================================
+-->
+<ddays>
+
+    <dday>
+        <id>kartrider_rushplus_7th_anniversary</id>
+        <name>카러플 7주년</name>
+        <date>2027-05-12</date>
+        <colorLight>#DCE8FF</colorLight>
+        <colorDark>#26406E</colorDark>
+    </dday>
+
+    <dday>
+        <id>krrp_S43</id>
+        <name>시즌 43</name>
+        <date>2027-01-07</date>
+    </dday>
+
+    <dday>
+        <id>orbit_event</id>
+        <name>오빗 획득 이벤트 종료까지</name>
+        <date>2026-10-28</date>
+        <colorLight>#FFE1E1</colorLight>
+        <colorDark>#5C2B2B</colorDark>
+    </dday>
+
+    <dday>
+        <id>new_year</id>
+        <name>2027년, 붉은 양의 해</name>
+        <date>2027-01-01</date>
+    </dday>
+
+</ddays>

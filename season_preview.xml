@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+=====================================================================
+ season_preview.xml 사용 방법  ("시즌 업데이트 미리보기" 팝업 내용)
+=====================================================================
+ - event_cards.xml 에서 <event type="season"> 카드를 누르면 이 파일 내용이 팝업으로 열립니다.
+ - 앱이 켜져 있는 동안 5분마다, 그리고 앱으로 돌아올 때 자동으로 다시 읽습니다.
+ 
+ [구조]  <season> 안에
+ <title>   팝업 제목 (선택, 없으면 기본 제목)
+ <image>   일정표 통이미지 주소 (선택). 있으면 팝업에 "이미지" 탭이 생김
+ <day date="2026-11-12">   날짜별 묶음. 날짜는 2026-11-12 / 2026.11.12 / 2026/11/12 인식
+     <item>글자</item>                      그날의 항목 한 줄
+     <item image="https://...png">글자</item>  오른쪽에 작은 썸네일(선택)
+ - 같은 날짜의 <day> 를 여러 번 써도 하나로 합쳐지고, 날짜 순서는 자동 정렬됩니다.
+ - 글자 안에 \n 을 쓰면 줄바꿈이 됩니다.
+ - 지난 날짜는 회색, 오늘은 강조, 팝업을 열면 오늘(없으면 가장 가까운 다음 일정) 위치로 자동 이동.
+ - 목록과 이미지 둘 중 하나만 있어도 됩니다 (하나뿐이면 탭 없이 그것만 표시).
+ - 날짜 형식이 틀린 <day> 는 그 날짜만 건너뜁니다. & 는 그냥 써도 자동 변환됩니다.
+ 
+ [예시]
+ <season>
+   <title>시즌 42 업데이트 일정</title>
+   <image>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Data/refs/heads/main/banner/season42_schedule.jpg</image>
+   <day date="2026-11-12">
+     <item>신규 트랙 챌린지</item>
+     <item image="https://.../kart.png">이벤트 - 시즌 교환소</item>
+   </day>
+ </season>
+=====================================================================
+-->
+<season>
+  <title>시즌 42 업데이트 일정</title>
+  <image>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/S42_update_preview.jpg</image>
+  
+  <day date="2026-11-12">
+    <item>신규 트랙 챌린지</item>
+    <item>랠리전</item>
+    <item>머지타운 스테이지 오픈</item>
+    <item>이벤트 - 시즌 교환소</item>
+    <item>이벤트 - 센터 카트 지금 PICK!</item>
+    <item>이벤트 - S42 신규 시즌 워밍 업 타임</item>
+    <item>이벤트 - 붐힐 어드벤처</item>
+    <item>카트 센터 - 기사 2종(레전드/스피드 카트), 마카롱(레전드/캐릭터)</item>
+    <item>행운의 별자리 - 스틸러(레전드/아이템 카트)</item>
+    <item>행운의 별자리 - 책책박사(레전드/펫)</item>
+    <item>시즌마다 열리는 상자 - 사진작가 첸첸(레전드/캐릭터)</item>
+    <item>배찌 아울렛 - 배찌 기상학자 코스튬 &amp; 마카롱 세리머니 카드</item>
+    <item>시크릿 키 대박 구매 찬스</item>
+    <item>큐브 팡팡 - 파브르 배찌(레전드/캐릭터)</item>
+  </day>
+
+  <day date="2026-11-15">
+    <item>시즌 부스터 버프</item>
+    <item>행운의 별 보석 사전 판매</item>
+  </day>
+
+  <day date="2026-11-19">
+    <item>이벤트 - 수능 기념 특별 지급 이벤트</item>
+  </day>
+
+  <day date="2026-11-20">
+    <item>카트 실험실</item>
+    <item>피버 레이스</item>
+    <item>이벤트 - 비밀화원을 찾아온 사슴</item>
+    <item>이벤트 - 비밀의 로즈게이트</item>
+    <item>행운의 별자리 - 마술사 토끼(레전드/플라잉 펫)</item>
+    <item>누적 소비 이벤트</item>
+    <item>행운의 별 보석 대박 구매 찬스</item>
+  </day>
+
+  <day date="2026-11-21">
+    <item>CP전</item>
+  </day>
+
+  <day date="2026-11-27">
+    <item>신규 트랙 챌린지</item>
+    <item>에너지 경기장</item>
+    <item>이벤트 - 비밀화원의 달콤한 선물</item>
+    <item>이벤트 - 연말 출석 챌린지</item>
+    <item>2026 연말 맞이 아이템 건전지 구매 - 테두리, 계기판, 배경, 시상대</item>
+  </day>
+
+  <day date="2026-12-01">
+    <item>월간 패스-아기 복돼지(레전드/아이템 카트), 체리맛 진저 쿠키(레어/펫)</item>
+  </day>
+
+  <day date="2026-12-04">
+    <item>얼티밋 리그 &amp; 얼티밋 오픈 이벤트</item>
+    <item>이벤트 - 토피넛 헤어장식</item>
+  </day>
+
+  <day date="2026-12-06">
+    <item>이벤트 - 시즌 부스터 누적 접속</item>
+  </day>
+</season>
