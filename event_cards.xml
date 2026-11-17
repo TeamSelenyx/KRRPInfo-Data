@@ -135,7 +135,7 @@
         <minVersion>0.6.0</minVersion>
         <maxVersion>0.6.99</maxVersion>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/krrp_info_update.png</imageUrl>
-        <startAt>2027-11-24T12:00:00Z</startAt>
+        <startAt>2026-11-17T00:00:00Z</startAt>
         <endAt>*</endAt>
         <popup>
             <title>[BETA] v0.6.0 업데이트 내용</title>
