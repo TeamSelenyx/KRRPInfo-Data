@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=====================================================================
+ app_version.xml 사용 방법  (메인 화면 우측 상단 "앱 버전 확인" 버튼 + 테스트 버전 안내)
+=====================================================================
+ - 정식 버전(<stable>)과 테스트 버전(<test>) 각각의 "최신 버전"을 적습니다. 둘 중 하나만 적어도 됩니다.
+ - 앱은 자기가 속한 쪽의 정보와 비교합니다.
+     · 정식 버전 앱  → <stable> 과 비교
+     · 테스트 버전 앱 → <test> 와 비교
+   실행 중인 버전과 여기 적힌 <version> 이 "다르면" 버튼에 빨간 점이 생기고,
+   누르면 "새 버전이 있습니다" + 아래의 title / text 가 팝업으로 보입니다.
+   같으면 "최신 버전을 사용 중입니다"로 보이고, 같은 title / text 가 수정 사항으로 함께 보입니다.
+ - 이 파일을 아직 못 받았거나 <version> 이 없으면 버튼이 보이지 않습니다.
+ - 앱이 켜져 있는 동안 5분마다, 그리고 앱으로 돌아올 때 자동으로 다시 읽습니다.
+
+ [어떤 앱이 "테스트 버전"으로 인식되나요?]
+ - 앱의 versionName 에 test / beta / alpha / rc / dev 글자가 들어 있을 때 (예: 0.6.1-beta1)
+ - 또는 앱의 versionName 이 <test> 의 <version> 과 똑같고 <stable> 의 <version> 과는 다를 때
+ - 테스트 버전 앱은 메인 화면 맨 아래에 "해당 버전은 테스트 버전으로 버그가 있을 수 있습니다." 카드가 나옵니다.
+
+ [태그]
+ <version>  (필수) 최신 버전명. 앱의 versionName 과 글자까지 똑같이 적어야 "같다"로 인식 (예: 0.6.0)
+ <title>    수정 사항 제목
+ <text>     수정 사항 내용. 줄바꿈은 글자 \n 을 적으면 됩니다. (& 는 그냥 써도 자동 변환)
+ <url>      (선택) 받는 곳 주소. 있으면 팝업에 "받으러 가기" 버튼이 생김 (https:// 로 시작)
+=====================================================================
+-->
+<app_version>
+
+  <stable>
+    <version>0.5.0</version>
+    <title>0.5.0(BETA)</title>
+    <text> * 현재 출시된 버전</text>
+    <url>https://play.google.com/store/apps/details?id=com.teamselenyx.krrpinfo</url>
+  </stable>
+
+  <test>
+    <version>0.6.0</version>
+    <title>0.6.0(BETA)</title>
+    <text> * 커뮤니티에 앱 공지 카테고리 추가\n * D-Day 하루 전 알림 추가\n * 배너 자동 갱신</text>
+    <url>https://play.google.com/store/apps/details?id=com.teamselenyx.krrpinfo</url>
+  </test>
+
+</app_version>

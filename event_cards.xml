@@ -86,8 +86,7 @@
         <id>krrp_update_261024</id>
         <title>[BETA] v0.4.0 업데이트</title>
         <subtitle>버그 수정, 새로운 기능들을 확인하려면 눌러주세요.</subtitle>
-        <minVersion>0.4.0</minVersion>
-        <maxVersion>0.4.99</maxVersion>
+        <maxVersion>0.4.0</maxVersion>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/krrp_info_update.png</imageUrl>
         <startAt>2026-10-24T18:30:00Z</startAt>
         <endAt>2026-11-17T23:59:59Z</endAt>
@@ -109,8 +108,7 @@
         <id>krrp_update_261117</id>
         <title>[BETA] v0.5.0 업데이트</title>
         <subtitle>버그 수정, 새로운 기능들을 확인하려면 눌러주세요.</subtitle>
-        <minVersion>0.5.0</minVersion>
-        <maxVersion>0.5.99</maxVersion>
+        <maxVersion>0.5.0</maxVersion>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/krrp_info_update.png</imageUrl>
         <startAt>2026-11-16T23:00:00Z</startAt>
         <endAt>*</endAt>
@@ -132,15 +130,14 @@
         <id>krrp_update_261200</id>
         <title>[BETA] v0.6.0 업데이트</title>
         <subtitle>버그 수정, 새로운 기능들을 확인하려면 눌러주세요.</subtitle>
-        <minVersion>0.6.0</minVersion>
-        <maxVersion>0.6.99</maxVersion>
+        <maxVersion>0.6.0</maxVersion>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/krrp_info_update.png</imageUrl>
         <startAt>2026-11-17T00:00:00Z</startAt>
         <endAt>*</endAt>
         <popup>
             <title>[BETA] v0.6.0 업데이트 내용</title>
             <date>2026-12-00</date>
-            <text>업데이트 버전: v0.6.0(BETA)\n업데이트 날짜: 2026.12.00\n\n업데이트 내용:\n * 메인 탭의 디자인이 변경됩니다. 내 프로필을 제외한 나머지 기능들의 순서 재배치 및 표시/숨기기 기능을 추가했습니다. 메인 탭 우측 상단 설정 버튼 옆에 수정 버튼을 눌러서 진입하실 수 있습니다.\n * D-Day 카드에서 D-Day의 y 글자가 잘리는 문제가 수정됬습니다.\n * 유저 목록 백업에서 이미지도 같이 백업이 가능합니다.\n * 앱 위젯이 추가됩니다. 내 정보를 위젯에서 바로 확인할 수 있습니다.\n * 일부 버그가 수정되고, 몇몇 기능들을 개선했습니다.</text>
+            <text>업데이트 버전: v0.6.0(BETA)\n업데이트 날짜: 2026.12.00\n\n업데이트 내용:\n * 메인 탭의 디자인이 변경됩니다. 내 프로필을 제외한 나머지 기능들의 순서 재배치 및 표시/숨기기 기능을 추가했습니다. 메인 탭 우측 상단 설정 버튼 옆에 수정 버튼을 눌러서 진입하실 수 있습니다.\n * 카러플과 관련된 일정이 있는 경우 앱 알림으로 확인할 수 있는 기능이 추가됩니다.\n * 유저 목록 백업에서 이미지도 같이 백업이 가능합니다.\n * 앱 위젯이 추가됩니다. 내 정보를 위젯에서 바로 확인할 수 있습니다.\n * 일부 버그가 수정되고, 몇몇 기능들을 개선했습니다.</text>
             <buttons>
                 <button>
                     <label>업데이트 하러 가기</label>
