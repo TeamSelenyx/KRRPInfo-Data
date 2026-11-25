@@ -39,9 +39,6 @@
  
  [표시 조건]
  <startAt> / <endAt>   이 기간 안에서만 보임. 비우거나 * 이면 제한 없음.
-     형식: 2026-11-17T09:00:00+09:00  (한국시간은 +09:00 을 꼭 붙이세요)
-     주의! 끝에 Z 나 +09:00 이 없으면 UTC(한국보다 9시간 늦음)로 읽힙니다!
-     예) 한국시간 11/17 00:00 시작 → 2026-11-17T00:00:00+09:00
  <minVersion> / <maxVersion>   앱 버전 조건 (예: 0.6.0). 비우면 제한 없음.
      minVersion=이상, maxVersion=이하(해당 버전 포함). 0.5.x 전부 → maxVersion 0.5.99
      예) 0.6.0 이상 사용자에게만 → <minVersion>0.6.0</minVersion>
@@ -52,7 +49,7 @@
    <title>업데이트 안내</title>
    <subtitle>자세히 보기</subtitle>
    <backgroundColor>#3A5BA0</backgroundColor>
-   <startAt>2026-11-17T00:00:00+09:00</startAt>
+   <startAt>2026-11-17T00:00:00</startAt>
    <endAt>*</endAt>
    <popup>
      <title>0.6.0 업데이트</title>
@@ -88,8 +85,8 @@
         <subtitle>버그 수정, 새로운 기능들을 확인하려면 눌러주세요.</subtitle>
         <maxVersion>0.4.0</maxVersion>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/krrp_info_update.png</imageUrl>
-        <startAt>2026-10-24T18:30:00Z</startAt>
-        <endAt>2026-11-17T23:59:59Z</endAt>
+        <startAt>2026-10-24T18:30:00</startAt>
+        <endAt>2026-11-17T23:59:59</endAt>
         <popup>
             <title>[BETA] v0.4.0 업데이트 내용</title>
             <date>2026-10-24</date>
@@ -110,7 +107,7 @@
         <subtitle>버그 수정, 새로운 기능들을 확인하려면 눌러주세요.</subtitle>
         <maxVersion>0.5.0</maxVersion>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/krrp_info_update.png</imageUrl>
-        <startAt>2026-11-16T23:00:00Z</startAt>
+        <startAt>2026-11-16T23:00:00</startAt>
         <endAt>*</endAt>
         <popup>
             <title>[BETA] v0.5.0 업데이트 내용</title>
@@ -132,7 +129,7 @@
         <subtitle>버그 수정, 새로운 기능들을 확인하려면 눌러주세요.</subtitle>
         <maxVersion>0.6.0</maxVersion>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/krrp_info_update.png</imageUrl>
-        <startAt>2026-11-17T00:00:00Z</startAt>
+        <startAt>2026-11-17T00:00:00</startAt>
         <endAt>*</endAt>
         <popup>
             <title>[BETA] v0.6.0 업데이트 내용</title>
@@ -154,7 +151,7 @@
         <subtitle>배너를 눌러서 S42 일정들을 확인하실 수 있습니다.</subtitle>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/S42_preview.png</imageUrl>
         <seasonPreview>true</seasonPreview>
-        <startAt>2026-11-16T00:00:00Z</startAt>
+        <startAt>2026-11-16T00:00:00</startAt>
         <endAt>*</endAt>
     </event>
 
@@ -175,7 +172,7 @@
         <title>Discord 서버 오픈!</title>
         <subtitle>KRRP 정보의 Discord 서버가 오픈되었습니다.</subtitle>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/discord_banner.jpeg</imageUrl>
-        <startAt>2026-11-25T00:00:00Z</startAt>
+        <startAt>2026-11-25T00:00:00</startAt>
         <endAt>*</endAt>
         <popup>
             <title>Discord 서버 오픈</title>
@@ -199,8 +196,8 @@
         <title>Discord 서버 오픈 예정</title>
         <subtitle>KRRP 정보 앱의 Discord 서버가 오픈 준비중 입니다.</subtitle>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/discord_banner.jpeg</imageUrl>
-        <startAt>2026-10-29T00:00:00Z</startAt>
-        <endAt>2026-11-24T23:59:59Z</endAt>
+        <startAt>2026-10-29T00:00:00</startAt>
+        <endAt>2026-11-24T23:59:59</endAt>
     </event>
 
     <event type="link">
@@ -209,8 +206,8 @@
         <subtitle>꽃향기 가득한 비밀의 정원에서 펼쳐지는 레이싱 모험!</subtitle>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/S42_preview.png</imageUrl>
         <linkUrl>https://forum.nexon.com/kartrush/board_view?board=833&thread=3572108&stickyBoard=1</linkUrl>
-        <startAt>2026-11-02T00:00:00Z</startAt>
-        <endAt>2026-11-12T23:59:59Z</endAt>
+        <startAt>2026-11-02T00:00:00</startAt>
+        <endAt>2026-11-12T23:59:59</endAt>
     </event>
 
     <event type="link">
@@ -219,8 +216,8 @@
         <subtitle>플레이해서 친필 사인 또는 에어팟 맥스 2 추첨에 도전!</subtitle>
         <imageUrl>https://dszw1qtcnsa5e.cloudfront.net/community/20260917/8e19bce1-da27-4541-a236-2d7a63574ba0/02%EC%9B%B9%EB%A1%A4%EB%A7%81%EB%B0%B0%EB%84%88PCMO750X522.jpg</imageUrl>
         <linkUrl>https://kartrush.nexon.com/2026/event_260922-launching#event1</linkUrl>
-        <startAt>2026-09-22T00:00:00Z</startAt>
-        <endAt>2026-10-20T23:59:59Z</endAt>
+        <startAt>2026-09-22T00:00:00</startAt>
+        <endAt>2026-10-20T23:59:59</endAt>
     </event>
 
     <event>
@@ -228,8 +225,8 @@
         <title>오빗 스테이션</title>
         <subtitle>신규, 복귀 유저들을 초대해서 무료 레전드 카트를 얻어보세요.</subtitle>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/orbit_station_preview.jpg</imageUrl>
-        <startAt>2026-09-23T00:00:00Z</startAt>
-        <endAt>2026-10-29T23:59:59Z</endAt>
+        <startAt>2026-09-23T00:00:00</startAt>
+        <endAt>2026-10-29T23:59:59</endAt>
     </event>
 
 
@@ -239,8 +236,8 @@
         <title>테스트 배너 1</title>
         <subtitle>하얀색 배경만 표시</subtitle>
         <backgroundColor>#FFFFFF</backgroundColor>
-        <startAt>2027-10-09T00:00:00Z</startAt>
-        <endAt>2027-12-31T23:59:59Z</endAt>
+        <startAt>2027-10-09T00:00:00</startAt>
+        <endAt>2027-12-31T23:59:59</endAt>
     </event>
 
     <event>
@@ -249,8 +246,8 @@
         <subtitle>하얀색 배경에 누르면 다른 사이트로 이동</subtitle>
         <backgroundColor>#FFFFFF</backgroundColor>
         <linkUrl>https://forum.nexon.com/kart_rush/board_view?board=1420&amp;thread=0</linkUrl>
-        <startAt>2027-10-09T00:00:00Z</startAt>
-        <endAt>2027-12-31T23:59:59Z</endAt>
+        <startAt>2027-10-09T00:00:00</startAt>
+        <endAt>2027-12-31T23:59:59</endAt>
     </event>
 
 </events>
