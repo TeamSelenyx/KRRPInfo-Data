@@ -176,7 +176,7 @@
         <subtitle>KRRP 정보 앱의 Discord 서버가 오픈 준비중 입니다.</subtitle>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/discord_banner.jpeg</imageUrl>
         <startAt>2026-10-29T00:00:00Z</startAt>
-        <endAt>*</endAt>
+        <endAt>2026-11-24T23:59:59Z</endAt>
     </event>
 
     <event type="popup">
@@ -184,7 +184,7 @@
         <title>Discord 서버 오픈!</title>
         <subtitle>KRRP 정보의 Discord 서버가 오픈되었습니다.</subtitle>
         <imageUrl>https://raw.githubusercontent.com/TeamSelenyx/KRRPInfo-Banner/refs/heads/main/banner/discord_banner.jpeg</imageUrl>
-        <startAt>2027-11-29T00:00:00Z</startAt>
+        <startAt>2026-11-25T00:00:00Z</startAt>
         <endAt>*</endAt>
         <popup>
             <title>Discord 서버 오픈</title>
@@ -193,7 +193,7 @@
             <buttons>
                 <button>
                     <label>Discord 서버 입장하기</label>
-                    <url></url>
+                    <url>https://discord.gg/ctH5ddMStq</url>
                     <style>outlined</style>
                 </button>
             </buttons>
