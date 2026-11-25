@@ -39,12 +39,6 @@
         <id>krrp_S43</id>
         <name>시즌 43</name>
         <date>2027-01-07</date>
-    </dday>
-
-    <dday>
-        <id>orbit_event</id>
-        <name>오빗 획득 이벤트 종료까지</name>
-        <date>2026-10-28</date>
         <colorLight>#FFE1E1</colorLight>
         <colorDark>#5C2B2B</colorDark>
     </dday>
@@ -53,6 +47,16 @@
         <id>new_year</id>
         <name>2027년, 붉은 양의 해</name>
         <date>2027-01-01</date>
+    </dday>
+
+
+    <!-- 종료 -->
+    <dday>
+        <id>orbit_event</id>
+        <name>오빗 획득 이벤트 종료까지</name>
+        <date>2026-10-28</date>
+        <colorLight>#FFE1E1</colorLight>
+        <colorDark>#5C2B2B</colorDark>
     </dday>
 
 </ddays>
